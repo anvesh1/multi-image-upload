@@ -1,15 +1,13 @@
-# Laravel 5.2 and Dropzone.js auto image uploads with removal links
-
-This project is related to tutorial from [Codingo Tuts].
+# Multiple Images upload with laravel 5.2 and dropzone Js
 
 What is covered in this project:
 
-    - Auto image upload
-    - Remove images directly from Dropzone preview with AJAX request
-    - Image counter for uploaded images
+    - Preview Images before upload
+    - Delete images from preview and view images in popup
+    - Image counter, Total size of images for uploaded images
     - Saving images as full size and icon size versions
-    - Using Image Intervention package for resizing and image encoding
-    - Saving image data to database
+    - Use of Image Intervention package for resizing images
+    - Saving images location in database
     - Unique file names for images on server side
     - Displaying already uploaded images in Dropzone
 
@@ -23,7 +21,3 @@ When you clone this project cd into directory and then:
  - `php artisan key:generate`
  - Fill .env file with database credentials and upload paths.
  - `php artisan migrate`
-   
-Now you are set.
-
-[Codingo Tuts]:https://tuts.codingo.me/laravel-5-1-and-dropzone-js-auto-image-uploads-with-removal-links/
