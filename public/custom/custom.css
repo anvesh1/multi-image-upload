@@ -1,0 +1,41 @@
+.dropzone {
+  min-height: 90px;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.dropzone.dz-clickable {
+  /*pointer-events: none;*/
+}
+
+.dropzone-previews{
+  pointer-events: all;
+}
+
+.dz-filename{
+  width: 100px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropzone .dz-preview:hover .dz-image img {
+  -webkit-filter: none !important;
+  filter: drop-shadow;
+}
+
+.dropzone .dz-preview.dz-success .dz-success-mark {
+  -webkit-animation: passing-through 1s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-animation: passing-through 1s cubic-bezier(0.77, 0, 0.175, 1);
+  -ms-animation: passing-through 1s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-animation: passing-through 1s cubic-bezier(0.77, 0, 0.175, 1);
+  animation: passing-through 1s cubic-bezier(0.77, 0, 0.175, 1);
+  opacity: 1;
+  background-color: wheat;
+  border-radius: 50%;
+}
+
+.progress-bar {
+  -webkit-animation: progress-bar-stripes 0s linear infinite !important;
+}
